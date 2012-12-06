@@ -5,13 +5,19 @@
 // Project 3
 
 var totalPower = 100; 
+var myHero = "Superman";
+var myVillan1 = "Lex";
+var myVillan2 = "Doomsday";
+var myVillan3 = "General Zod";
+var willFight = true
 
 
 var hero = { 
-	Hero: "Superman",
-	Power: "Strangth",
-	Weakness: "Kriptonite",
+	Hero:        "Superman",
+	Power:       "Strangth",
+	Weakness:    "Kriptonite",
 	Catchphrase: function() {
+		
 		console.log("I'll protect the people of Earth from these evil villans!");
 	}
 };
